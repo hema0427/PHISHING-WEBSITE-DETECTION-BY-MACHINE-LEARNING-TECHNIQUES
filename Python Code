@@ -1,0 +1,198 @@
+9.1	Python Code
+import pandas as pd
+print("pandas library imported successfully.")
+
+import pandas as pd
+
+print("Please check the files in your Colab environment. The following are the files in         /content/")
+!ls -F /content/
+
+# After checking the files, update the filename below if it's different.
+# For example, if your file is named 'my_phishing_data.csv', change 'phishing_dataset.csv' to 'my_phishing_data.csv'
+
+try:
+    df = pd.read_csv('/content/phishing.csv')
+    print("Dataset loaded successfully. Displaying the first 5 rows:")
+    print(df.head())
+    print("\nColumn names and their data types:")
+    print(df.info())
+except FileNotFoundError:
+    print("\nError: '/content/phishing.csv' not found. Please ensure you have uploaded the dataset file to your Google Colab environment as instructed previously.")
+    print("If you have uploaded it with a different name, please update the filename in the `pd.read_csv()` command and re-run this cell.")
+    print("If the file still doesn't appear after uploading, try refreshing the Colab file browser.")
+
+import pandas as pd
+
+print("Please check the files in your Colab environment. The following are the files in /content/")
+!ls -F /content/
+
+# After checking the files, update the filename below if it's different.
+# For example, if your file is named 'my_phishing_data.csv', change 'phishing_dataset.csv' to 'my_phishing_data.csv'
+
+try:
+    df = pd.read_csv('/content/phishing.csv')
+    print("Dataset loaded successfully. Displaying the first 5 rows:")
+    print(df.head())
+    print("\nColumn names and their data types:")
+    print(df.info())
+except FileNotFoundError:
+    print("\nError: '/content/phishing.csv' not found. Please ensure you have uploaded the dataset file to your Google Colab environment as instructed previously.")
+    print("If you have uploaded it with a different name, please update the filename in the `pd.read_csv()` command and re-run this cell.")
+    print("If the file still doesn't appear after uploading, try refreshing the Colab file browser.")
+import pandas as pd
+
+print("Please check the files in your Colab environment. The following are the files in /content/")
+!ls -F /content/
+
+# After checking the files, update the filename below if it's different.
+# For example, if your file is named 'my_phishing_data.csv', change 'phishing_dataset.csv' to 'my_phishing_data.csv'
+
+try:
+    df = pd.read_csv('/content/phishing.csv')
+    print("Dataset loaded successfully. Displaying the first 5 rows:")
+    print(df.head())
+    print("\nColumn names and their data types:")
+    print(df.info())
+except FileNotFoundError:
+    print("\nError: '/content/phishing.csv' not found. Please ensure you have uploaded the dataset file to your Google Colab environment as instructed previously.")
+    print("If you have uploaded it with a different name, please update the filename in the `pd.read_csv()` command and re-run this cell.")
+    print("If the file still doesn't appear after uploading, try refreshing the Colab file browser.")
+
+import pandas as pd
+
+print("Please check the files in your Colab environment. The following are the files in /content/")
+!ls -F /content/
+
+# After checking the files, update the filename below if it's different.
+# For example, if your file is named 'my_phishing_data.csv', change 'phishing_dataset.csv' to 'my_phishing_data.csv'
+
+try:
+    df = pd.read_csv('/content/phishing.csv')
+    print("Dataset loaded successfully. Displaying the first 5 rows:")
+    print(df.head())
+    print("\nColumn names and their data types:")
+    print(df.info())
+except FileNotFoundError:
+    print("\nError: '/content/phishing.csv' not found. Please ensure you have uploaded the dataset file to your Google Colab environment as instructed previously.")
+    print("If you have uploaded it with a different name, please update the filename in the `pd.read_csv()` command and re-run this cell.")
+    print("If the file still doesn't appear after uploading, try refreshing the Colab file browser.")
+import pandas as pd
+
+print("Please check the files in your Colab environment. The following are the files in /content/")
+!ls -F /content/
+
+# After checking the files, update the filename below if it's different.
+# For example, if your file is named 'my_phishing_data.csv', change 'phishing_dataset.csv' to 'my_phishing_data.csv'
+
+try:
+    df = pd.read_csv('/content/phishing.csv')
+    print("Dataset loaded successfully. Displaying the first 5 rows:")
+    print(df.head())
+    print("\nColumn names and their data types:")
+    print(df.info())
+except FileNotFoundError:
+    print("\nError: '/content/phishing.csv' not found. Please ensure you have uploaded the dataset file to your Google Colab environment as instructed previously.")
+    print("If you have uploaded it with a different name, please update the filename in the `pd.read_csv()` command and re-run this cell.")
+    print("If the file still doesn't appear after uploading, try refreshing the Colab file browser.")
+
+import pandas as pd
+
+print("Please check the files in your Colab environment. The following are the files in /content/")
+!ls -F /content/
+
+# After checking the files, update the filename below if it's different.
+# For example, if your file is named 'my_phishing_data.csv', change 'phishing_dataset.csv' to 'my_phishing_data.csv'
+
+try:
+    df = pd.read_csv('/content/phishing.csv')
+    print("Dataset loaded successfully. Displaying the first 5 rows:")
+    print(df.head())
+    print("\nColumn names and their data types:")
+    print(df.info())
+except FileNotFoundError:
+    print("\nError: 'phishing_dataset.csv' not found. Please ensure you have uploaded the dataset file to your Google Colab environment as instructed previously.")
+    print("If you have uploaded it with a different name, please update the filename in the `pd.read_csv()` command and re-run this cell.")
+    print("If the file still doesn't appear after uploading, try refreshing the Colab file browser.")
+
+import pandas as pd
+
+print("Please check the files in your Colab environment. The following are the files in /content/")
+!ls -F /content/
+
+# After checking the files, update the filename below if it's different.
+# For example, if your file is named 'my_phishing_data.csv', change 'phishing_dataset.csv' to 'my_phishing_data.csv'
+
+try:
+    df = pd.read_csv('phishing.csv')
+    print("Dataset loaded successfully. Displaying the first 5 rows:")
+    print(df.head())
+    print("\nColumn names and their data types:")
+    print(df.info())
+except FileNotFoundError:
+    print("\nError: 'phishing.csv' not found. Please ensure you have uploaded the dataset file to your Google Colab environment as instructed previously.")
+    print("If you have uploaded it with a different name, please update the filename in the `pd.read_csv()` command and re-run this cell.")
+    print("If the file still doesn't appear after uploading, try refreshing the Colab file browser.")
+
+y = df['class']
+X = df.drop(columns=['class', 'Index'])
+
+print("First 5 rows of features (X):")
+print(X.head())
+print("\nFirst 5 rows of target (y):")
+print(y.head())
+
+print(f"\nShape of X: {X.shape}")
+print(f"Shape of y: {y.shape}")
+
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+
+# Split the dataset into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+print("Data split into training and testing sets successfully.")
+print(f"X_train shape: {X_train.shape}")
+print(f"X_test shape: {X_test.shape}")
+print(f"y_train shape: {y_train.shape}")
+print(f"y_test shape: {y_test.shape}")
+
+# Instantiate and train a RandomForestClassifier model
+model = RandomForestClassifier(random_state=42)
+model.fit(X_train, y_train)
+
+print("RandomForestClassifier model trained successfully.")
+
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+
+# Make predictions on the test set
+y_pred = model.predict(X_test)
+
+# Calculate evaluation metrics
+accuracy = accuracy_score(y_test, y_pred)
+precision = precision_score(y_test, y_pred, average='weighted')
+recall = recall_score(y_test, y_pred, average='weighted')
+f1 = f1_score(y_test, y_pred, average='weighted')
+
+# Print the metrics
+print(f"Model Evaluation Metrics:")
+print(f"Accuracy: {accuracy:.4f}")
+print(f"Precision: {precision:.4f}")
+print(f"Recall: {recall:.4f}")
+print(f"F1-Score: {f1:.4f}")
+
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Calculate the confusion matrix
+cm = confusion_matrix(y_test, y_pred)
+
+# Create a heatmap of the confusion matrix
+plt.figure(figsize=(8, 6))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', cbar=False)
+plt.xlabel('Predicted Label')
+plt.ylabel('True Label')
+plt.title('Confusion Matrix')
+plt.show()
+
+print("Confusion matrix visualized successfully.")
