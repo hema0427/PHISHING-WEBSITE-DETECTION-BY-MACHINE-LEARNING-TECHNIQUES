@@ -1,0 +1,33 @@
+This is what makes it real-time ML, running on 127.0.0.1:5000
+from flask import Flask, request, jsonify
+import pickle
+
+app = Flask(__name__)
+
+# Load trained ML model
+model = pickle.load(open("phishing_model.pkl", "rb"))
+
+@app.route("/predict", methods=["POST"])
+def predict():
+    data = request.json
+    url = data["url"]
+
+    # Feature extraction function
+    features = extract_features(url)
+
+    prediction = model.predict([features])[0]
+
+    result = "phishing" if prediction == 1 else "legitimate"
+    return jsonify({"prediction": result})
+
+def extract_features(url):
+    return [
+        len(url),
+        url.count('.'),
+        url.count('-'),
+        url.count('@'),
+        url.startswith("https")
+    ]
+
+if __name__ == "__main__":
+    app.run(debug=True)
